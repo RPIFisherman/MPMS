@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T12:31:41.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jCFJprq9EfH8mndFbcg2" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T13:10:13.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MmJG6nNVz0srRTVFyI7S" version="21.0.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1105" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -171,25 +171,25 @@
         <mxCell id="-u5AoDnQZqnwcdEn-Bf_-163" value="GitrmSheathUtils.hpp" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="220" width="560" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="-u5AoDnQZqnwcdEn-Bf_-164" value="Particles" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="830" y="306.3996116504853" width="300" height="411.4653763712016" as="geometry">
+        <mxCell id="-u5AoDnQZqnwcdEn-Bf_-164" value="Vector2" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="290" width="300" height="410.25188752994586" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-u5AoDnQZqnwcdEn-Bf_-165" value="`" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="-u5AoDnQZqnwcdEn-Bf_-164" vertex="1">
-          <mxGeometry y="26" width="300" height="21.316983986886907" as="geometry" />
+        <mxCell id="-u5AoDnQZqnwcdEn-Bf_-165" value="    double components_[2];" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="-u5AoDnQZqnwcdEn-Bf_-164" vertex="1">
+          <mxGeometry y="26" width="300" height="34" as="geometry" />
         </mxCell>
         <mxCell id="-u5AoDnQZqnwcdEn-Bf_-170" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="-u5AoDnQZqnwcdEn-Bf_-164" vertex="1">
-          <mxGeometry y="47.31698398688691" width="300" height="6.559071995965202" as="geometry" />
+          <mxGeometry y="60" width="300" height="6.559071995965202" as="geometry" />
         </mxCell>
         <mxCell id="-u5AoDnQZqnwcdEn-Bf_-171" value="CONSTRUCTOR&#xa;    Vector2();&#xa;    ~Vector2();&#xa;        KOKKOS_FUNCTION&#xa;    Vector2(double x1, double x2);&#xa;    Vector2(double x[2]);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="-u5AoDnQZqnwcdEn-Bf_-164" vertex="1">
-          <mxGeometry y="53.876055982852115" width="300" height="96.12" as="geometry" />
+          <mxGeometry y="66.5590719959652" width="300" height="96.12" as="geometry" />
         </mxCell>
         <mxCell id="-u5AoDnQZqnwcdEn-Bf_-177" value="ACCESSOR&#xa;    double operator[](int i) const;&#xa;    double &amp;operator[](int i);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="-u5AoDnQZqnwcdEn-Bf_-164" vertex="1">
-          <mxGeometry y="149.9960559828521" width="300" height="59.417475728155345" as="geometry" />
+          <mxGeometry y="162.67907199596522" width="300" height="59.417475728155345" as="geometry" />
         </mxCell>
         <mxCell id="-u5AoDnQZqnwcdEn-Bf_-172" value="MUTATOR&#xa;    Vector2 operator-();&#xa;    Vector2 operator+(Vector2 v);&#xa;    Vector2 operator-(Vector2 v);&#xa;    Vector2 operator*(double scalar) const;&#xa;    Vector2 &amp;operator+=(const Vector2 &amp;v);&#xa;    void operator=(const double &amp;scalar);&#xa;    double dot(Vector2 v);&#xa;    double cross(Vector2 v);&#xa;    double magnitude();&#xa;    double magnitudesq();&#xa;    Vector2 rotateCW90();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="-u5AoDnQZqnwcdEn-Bf_-164" vertex="1">
-          <mxGeometry y="209.41353171100747" width="300" height="188.15533980582526" as="geometry" />
+          <mxGeometry y="222.09654772412057" width="300" height="188.15533980582526" as="geometry" />
         </mxCell>
         <mxCell id="-u5AoDnQZqnwcdEn-Bf_-176" value="All are KOKKOS_FUNCTION&#xa;Implement as KOKKOS_INLINE_FUNCTION in .hpp" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="239.99524271844655" width="300" height="39.6116504854369" as="geometry" />
