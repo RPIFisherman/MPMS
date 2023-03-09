@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:16:02.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="lrV1k6J0u2zHSUu5yV1G" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T14:59:23.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="o9xKrAi6gUnU-9sEruRW" version="21.0.2" type="github">
   <diagram name="Page-1" id="wg_ui4VL6gmrd6a_iYAp">
     <mxGraphModel dx="1615" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,10 +85,10 @@
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-72" value="ACCESSOR&#xa;    int getTotalMaterialPoints();&#xa;    Mesh getMeshObj();&#xa;    IntegrationView getPostions();&#xa;    IntView getElementIDs();&#xa;    BoolView getMaterialPointstatus();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
           <mxGeometry y="218.11650485436894" width="300" height="101.88" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-73" value="MUTATOR&#xa;    void T2LTracking(IntegrationView dx);&#xa;    void T2LTrackingDebug(IntegrationView dx);&#xa;    void MacphersonTracking(IntegrationView dx);&#xa;    void interpolateWachpress();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-73" value="MUTATOR&#xa;    void interpolateWachpress();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
           <mxGeometry y="319.99650485436894" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-74" value="materialPoints.cpp&#xa;    class functions&#xa;    void assembly(Mesh meshObj, MaterialPoints partObj);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-74" value="materialPoints.cpp&#xa;    class functions&#xa;    void assembly(Mesh meshObj, MaterialPoints partObj);&#xa;    void T2LTracking(IntegrationView dx);&#xa;    void T2LTrackingDebug(IntegrationView dx);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="1210" width="490" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-75" value="integration.hpp" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
@@ -140,29 +140,26 @@
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-35" value="IntVertiView elem2Vertices_ " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
           <mxGeometry y="49.280929596719076" width="380" height="23.280929596719073" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-37" value="int numParticles" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-38" value="int numElements" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
           <mxGeometry y="72.56185919343815" width="380" height="23.280929596719073" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-38" value="int numElements" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-42" value="IntView elem2MaterialPoints_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
           <mxGeometry y="95.84278879015723" width="380" height="23.280929596719073" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-42" value="IntView elem2MaterialPoints_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-43" value="IntElemsPerVertView vertex2Elems_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
           <mxGeometry y="119.1237183868763" width="380" height="23.280929596719073" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-43" value="IntElemsPerVertView vertex2Elems_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
-          <mxGeometry y="142.40464798359537" width="380" height="23.280929596719073" as="geometry" />
-        </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-44" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
-          <mxGeometry y="165.68557758031443" width="380" height="7.163362952836637" as="geometry" />
+          <mxGeometry y="142.40464798359537" width="380" height="7.163362952836637" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-45" value="CONSTRUCTOR&#xa;    Mesh()&#xa;    Mesh(variables...)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
-          <mxGeometry y="172.84894053315108" width="380" height="48.3526999316473" as="geometry" />
+          <mxGeometry y="149.56801093643202" width="380" height="48.3526999316473" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-46" value="ACCESSOR&#xa;    int getTotalVertices()&#xa;    int getTotalElements()&#xa;    IntegrationView getVertices()&#xa;    IntVertiView getConnectivity()&#xa;    IntView getElem2MaterialPoints();&#xa;    IntElemsPerVertView getVertex2Elems();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
-          <mxGeometry y="221.20164046479837" width="380" height="118.8" as="geometry" />
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-46" value="ACCESSOR&#xa;    int getNumVertices()&#xa;    int getNumElements()&#xa;    IntegrationView getVertices()&#xa;    IntVertiView getConnectivity()&#xa;    IntView getElem2MaterialPoints();&#xa;    IntElemsPerVertView getVertex2Elems();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
+          <mxGeometry y="197.9207108680793" width="380" height="118.8" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-47" value="MUTATOR&#xa;    void computeFractionalElementArea()    &#xa;    void setElem2MaterialPoints(IntView elem2MaterialPoints);&#xa;    void setVertex2Elems(IntElemsPerVertView vertex2Elems);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
-          <mxGeometry y="340.00164046479836" width="380" height="68.94736842105263" as="geometry" />
+          <mxGeometry y="316.7207108680793" width="380" height="68.94736842105263" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-48" value="Mesh.cpp&#xa;    class functions&#xa;    Mesh initializeSimpleMesh();&#xa;    Mesh initializeTestMesh(int factor);&#xa;    Mesh readMPASMesh(int ncid);&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-28" vertex="1">
           <mxGeometry x="130" y="1130" width="350" height="100" as="geometry" />
@@ -176,7 +173,7 @@
         <mxCell id="ykHySLvZPQPVh_R_5-h8-6" value="KOKKOS_INLINE_FUNCTION&#xa;// used by T2LTracking&#xa;    FaceDir T2LCheck(Integration xp, Integration dx, Integration v1, Integration v2, Integration v3, Integration v4)&#xa;    Integration findIntersectionPoint(Integration xp, Integration dx, Integration v1, Integration v2) &#xa;// variables used by T2LCheck&#xa;    int Nel_x_                                    int getTotalXElements()&#xa;    IntVertiView elemFaceBdry_        IntVertiView getElemFaceBdry()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=#ff0000;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;dashPattern=8 8;" vertex="1" parent="gH5EEMwpBmcdrMlRCM7K-28">
           <mxGeometry x="30" y="900" width="640" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ykHySLvZPQPVh_R_5-h8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#ff0000;" edge="1" parent="1" source="ykHySLvZPQPVh_R_5-h8-6" target="gH5EEMwpBmcdrMlRCM7K-73">
+        <mxCell id="ykHySLvZPQPVh_R_5-h8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ykHySLvZPQPVh_R_5-h8-6" target="gH5EEMwpBmcdrMlRCM7K-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
