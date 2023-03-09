@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T17:29:28.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OZ26ZlqCNw5bwrNZHKQV" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T19:40:34.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Qo-D2nk4K74NoUHNfhWE" version="21.0.2" type="github">
   <diagram name="Page-1" id="wg_ui4VL6gmrd6a_iYAp">
-    <mxGraphModel dx="1750" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="2156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-23" value="namespace polyMpmTest   aka  /src" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-23" value="namespace polyMpmTest" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=21;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="10" y="-20" width="2230" height="1330" as="geometry" />
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=550;exitDy=275;exitPerimeter=0;entryX=0.49;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gH5EEMwpBmcdrMlRCM7K-63" target="gH5EEMwpBmcdrMlRCM7K-74">
@@ -52,7 +52,7 @@
           <mxGeometry width="540" height="550" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-64" value="MaterialPoints" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-26" vertex="1">
-          <mxGeometry x="15" y="40" width="300" height="449.99650485436894" as="geometry">
+          <mxGeometry x="15" y="40" width="300" height="340" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -127,7 +127,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-10" value="MPM.hpp" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="60" width="535" height="890" as="geometry" />
+          <mxGeometry x="850" y="60" width="535" height="630" as="geometry" />
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-11" value="MPM" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="915" y="290" width="360" height="370" as="geometry">
@@ -157,14 +157,6 @@
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-22" value="&#xa;#define maxVerti 8&#xa;#define maxParts 8&#xa;#define maxElemsPerVert 5&#xa;using DoubleView = Kokkos::View&lt;double*&gt;;&#xa;using IntView = Kokkos::View&lt;int*&gt;;&#xa;using BoolView = Kokkos::View&lt;bool*&gt;;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="915" y="100" width="395" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="ykHySLvZPQPVh_R_5-h8-30" value="KOKKOS_INLINE_FUNCTION&#xa;    void initArrayWith(Vector arr[],int n, Vector fill)&#xa;    void initArrayWith(double arr[],int n, double fill)&#xa;&#xa;    void interpolateWachpress();&#xa;    void getWachpressCoeffs(Vector xp, &#xa;                            int numVerti,&#xa;                            Vector* v,&#xa;                            double* l)&#xa;    void getWachpressCoeffsByArea(Vector xp,&#xa;                                  int numVerti,&#xa;                                  Vector* v, &#xa;                                  double* phi,&#xa;                                  Vector* gradientPhi)&#xa;&#xa;    void gradientByHeight(Vector xp, int numVerti, Vector* v, double* phi, Vector* gradientPhi)&#xa;    void gradientMPAS(Vector xp, int numVerti, Vector* v, double* phi, Vector* gradientPhi)&#xa;   " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="862.5" y="680" width="500" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="ykHySLvZPQPVh_R_5-h8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gH5EEMwpBmcdrMlRCM7K-31">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="328" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gH5EEMwpBmcdrMlRCM7K-64" target="ykHySLvZPQPVh_R_5-h8-13">
           <mxGeometry relative="1" as="geometry">
@@ -226,6 +218,15 @@
               <mxPoint x="830" y="1260" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ykHySLvZPQPVh_R_5-h8-32" value="interpolation.hpp" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="710" width="535" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ykHySLvZPQPVh_R_5-h8-30" value="KOKKOS_INLINE_FUNCTION&#xa;    void initArrayWith(Vector arr[],int n, Vector fill)&#xa;    void initArrayWith(double arr[],int n, double fill)&#xa;&#xa;    void interpolateWachpress(variables...);&#xa;    void getWachpressCoeffs(Vector xp, &#xa;                            int numVerti,&#xa;                            Vector* v,&#xa;                            double* l)&#xa;    void getWachpressCoeffsByArea(Vector xp,&#xa;                                  int numVerti,&#xa;                                  Vector* v, &#xa;                                  double* phi,&#xa;                                  Vector* gradientPhi)&#xa;&#xa;    void gradientByHeight(Vector xp, int numVerti, Vector* v, double* phi, Vector* gradientPhi)&#xa;    void gradientMPAS(Vector xp, int numVerti, Vector* v, double* phi, Vector* gradientPhi)&#xa;   " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="917.5" y="790" width="500" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ykHySLvZPQPVh_R_5-h8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gH5EEMwpBmcdrMlRCM7K-34" target="ykHySLvZPQPVh_R_5-h8-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
