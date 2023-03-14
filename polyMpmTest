@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T05:46:43.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="n2KGoDAiObeHFedPMddd" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-14T05:01:33.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="PyMZnoxNeLQGJIRZNmzH" version="21.0.6" type="github">
   <diagram name="Page-1" id="wg_ui4VL6gmrd6a_iYAp">
-    <mxGraphModel dx="2311" dy="1994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1767" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-67" value="Vector2View positions_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
           <mxGeometry y="77.49514563106797" width="300" height="25.74757281553398" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-68" value="IntView elmIDs_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-68" value="IntView elmIDs_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;fontColor=#E6E6E6;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
           <mxGeometry y="103.24271844660196" width="300" height="25.74757281553398" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-69" value="BoolView isActive_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
@@ -80,7 +80,7 @@
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-71" value="CONSTRUCTOR&#xa;    MaterialPoints()&#xa;    MaterialPoints(variables...)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
           <mxGeometry y="162.6601941747573" width="300" height="55.45631067961166" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-72" value="ACCESSOR&#xa;    int getCount();&#xa;   &#xa;    VectorView getPostions();&#xa;    IntView getElmIDs();&#xa;    BoolView isActive();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-72" value="ACCESSOR&#xa;    int getCount();&#xa;   &#xa;    VectorView getPostions();&#xa;&#xa;    BoolView isActive();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-64" vertex="1">
           <mxGeometry y="218.11650485436894" width="300" height="101.88" as="geometry" />
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-28" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -129,9 +129,6 @@
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-28" source="gH5EEMwpBmcdrMlRCM7K-53" target="gH5EEMwpBmcdrMlRCM7K-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cq7rHenSV7x2SbAqdsQv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ykHySLvZPQPVh_R_5-h8-10" target="cq7rHenSV7x2SbAqdsQv-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-10" value="MPM.hpp" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="10" width="535" height="510" as="geometry" />
         </mxCell>
@@ -149,17 +146,20 @@
         <mxCell id="ykHySLvZPQPVh_R_5-h8-15" value="IntView elm2MaterialPoints_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
           <mxGeometry y="72.56185919343815" width="360" height="23.280929596719073" as="geometry" />
         </mxCell>
+        <mxCell id="cq7rHenSV7x2SbAqdsQv-4" value="IntView materialPoints2Elm_" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="ykHySLvZPQPVh_R_5-h8-11">
+          <mxGeometry y="95.84278879015723" width="360" height="23.280929596719073" as="geometry" />
+        </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-17" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
-          <mxGeometry y="95.84278879015723" width="360" height="7.163362952836637" as="geometry" />
+          <mxGeometry y="119.1237183868763" width="360" height="7.163362952836637" as="geometry" />
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-18" value="CONSTRUCTOR&#xa;    MPM()&#xa;    MPM(variables...)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
-          <mxGeometry y="103.00615174299386" width="360" height="48.3526999316473" as="geometry" />
+          <mxGeometry y="126.28708133971294" width="360" height="48.3526999316473" as="geometry" />
         </mxCell>
-        <mxCell id="ykHySLvZPQPVh_R_5-h8-19" value="ACCESSOR&#xa;    Mesh* getMesh()&#xa;    MaterialPoints* getMPs()&#xa;    IntView getElm2MPs();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
-          <mxGeometry y="151.35885167464116" width="360" height="68.64" as="geometry" />
+        <mxCell id="ykHySLvZPQPVh_R_5-h8-19" value="ACCESSOR&#xa;    Mesh* getMesh()&#xa;    MaterialPoints* getMPs()&#xa;    IntView getElm2MPs();&#xa;    IntView getMPs2Elm()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
+          <mxGeometry y="174.63978127136025" width="360" height="85.36" as="geometry" />
         </mxCell>
-        <mxCell id="ykHySLvZPQPVh_R_5-h8-20" value="MUTATOR&#xa;    void setElm2MPs(IntView elm2MPs);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
-          <mxGeometry y="219.99885167464117" width="360" height="68.94736842105263" as="geometry" />
+        <mxCell id="ykHySLvZPQPVh_R_5-h8-20" value="MUTATOR&#xa;    void setElm2MPs(IntView elm2MPs);&#xa;    void setMPs2Elm(IntView MPs2Elm)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="ykHySLvZPQPVh_R_5-h8-11" vertex="1">
+          <mxGeometry y="259.99978127136023" width="360" height="68.94736842105263" as="geometry" />
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-22" value="#define maxMPsPerElm 8&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="910" y="50" width="395" height="30" as="geometry" />
@@ -208,7 +208,7 @@
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-47" value="MUTATOR&#xa;    void setVtx2ElmConn(IntElmsPerVertView vertex2Elems);&#xa;    void setElm2VtxConn(IntVtx2ElmView elm2VtxConn);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gH5EEMwpBmcdrMlRCM7K-31" vertex="1">
           <mxGeometry y="293.43978127136023" width="380" height="68.94736842105263" as="geometry" />
         </mxCell>
-        <mxCell id="gH5EEMwpBmcdrMlRCM7K-48" value="Mesh.cpp&#xa;    class functions&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+        <mxCell id="gH5EEMwpBmcdrMlRCM7K-48" value="Mesh.cpp&#xa;    class functions&#xa;Mesh readMPASMesh(std::string filename);&#xa;Mesh readMPASMesh(int ncid);&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1020" width="350" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gH5EEMwpBmcdrMlRCM7K-27" value="//TODO: verti =&gt;&gt; Vtx&#xa;               Elems =&gt;&gt; Elm&#xa;                    vtxsPerElm&#xa;#define maxVtxsPerElm 8                &#xa;#define maxElmsPerVtx 5&#xa;using IntVtx2ElmView = Kokkos::View&lt;int*[maxVtxsPerElm+1]&gt;;&#xa;using IntElm2VtxView = Kokkos::View&lt;int*[maxElmsPerVtx+1]&gt;;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;dashed=1;fillColor=default;" parent="1" vertex="1">
@@ -237,9 +237,6 @@
         </mxCell>
         <mxCell id="ykHySLvZPQPVh_R_5-h8-36" value="    void assembly(Mesh meshObj, MaterialPoints partObj);" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="882.5" y="1140" width="450" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cq7rHenSV7x2SbAqdsQv-1" value="MPM.cpp&#xa;&#xa;Mesh readMPASMesh(std::string filename);&#xa;Mesh readMPASMesh(int ncid);&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=default;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="937.5" y="585.67" width="350" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
